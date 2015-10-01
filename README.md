@@ -19,6 +19,13 @@ var person = {
 
 var jsonPerson = objectToJSON(person);
 ```
+## API
+
+### `objectToJson(object)`
+
+| Name | Type | Description |
+|------|------|-------------|
+| object | `Object` | object to be converted to a JSON object 
 
 ## License
 MIT © Joe Gesualdo 
