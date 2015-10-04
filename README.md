@@ -5,10 +5,12 @@
 JSON.parse() didn't work for a [Bluebird](https://github.com/petkaantonov/bluebird) promise object.
 
 ## Install
+
 ```
 $ npm install --save object-to-json
 ```
 ## Usage
+
 ```javascript
 var objectToJson = require("object-to-json");
 
