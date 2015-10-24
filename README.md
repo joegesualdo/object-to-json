@@ -29,5 +29,16 @@ var jsonPerson = objectToJSON(person);
 |------|------|-------------|
 | object | `Object` | object to be converted to a JSON object 
 
+```javascript
+var objectToJson = require("object-to-json");
+
+var person = {
+  name: "Joe",
+  age: 22
+}
+
+var jsonPerson = objectToJSON(person);
+```
+
 ## License
 MIT © Joe Gesualdo 
